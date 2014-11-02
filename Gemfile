@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.beta4'
@@ -31,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'slim-rails'
+gem 'html2slim', group: :development
 
 gem 'puma'
 
@@ -81,8 +85,10 @@ group :development do
   gem 'tapp'
   gem 'view_source_map'
   gem 'thin'
-
-  # gem 'rack-mini-profiler'
 end
 
 gem 'backbone-on-rails'
+
+group :development do
+  gem 'guard-livereload', require: false
+end

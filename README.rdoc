@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails と Backbone.js のサンプルです。
 
-Things you may want to cover:
+Rails 4.2.0.beta4
 
-* Ruby version
+Backbone.js 1.1.2
 
-* System dependencies
+== 役に立った本
 
-* Configuration
+Backbone.jsアプリケーション開発ガイド
 
-* Database creation
+http://www.amazon.co.jp/dp/4873116589
 
-* Database initialization
+JavaScriptエンジニア養成読本
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://www.amazon.co.jp/dp/4774167975
