@@ -1,0 +1,16 @@
+{
+  "name": "Rails Backbone Sample",
+  "description": "Rails Backbone Sample",
+  "addons": ["heroku-postgresql", "papertrail"],
+  "env": {
+    "RACK_ENV": "production",
+    "RAILS_ENV": "production",
+    "SECRET_KEY_BASE": {
+      "description": "This gets generated",
+      "generator": "secret"
+    }
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}
